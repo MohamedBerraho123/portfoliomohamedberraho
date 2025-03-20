@@ -12,7 +12,6 @@ import { Link } from "react-router-dom";
 // Import all tech images
 import reactLogo from '../assets/techs/React.png';
 import angularLogo from '../assets/techs/Angular.png';
-import Wordpress from '../assets/techs/Wordpress.png';
 import laravelLogo from '../assets/techs/Laravel.png';
 import pythonLogo from '../assets/techs/Python.png';
 import netLogo from '../assets/techs/Netcore.png';
@@ -30,7 +29,6 @@ const MainContent = ({ isDarkMode, isTransitioning }) => {
     const techStack = [
         { name: 'React', image: reactLogo },
         { name: 'Angular', image: angularLogo },
-        { name: 'Wordpress', image: Wordpress },
         { name: 'Laravel', image: laravelLogo },
         { name: 'Python', image: pythonLogo },
         { name: '.Net', image: netLogo },
