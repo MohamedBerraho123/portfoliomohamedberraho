@@ -29,6 +29,7 @@ const MainContent = ({ isDarkMode, isTransitioning }) => {
 
     const techStack = [
         { name: 'React', image: reactLogo },
+        { name: 'Angular', image: angularLogo },
         { name: 'Wordpress', image: Wordpress },
         { name: 'Laravel', image: laravelLogo },
         { name: 'Python', image: pythonLogo },
