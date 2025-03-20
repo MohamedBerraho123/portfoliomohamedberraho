@@ -14,7 +14,7 @@ import reactLogo from '../assets/techs/React.png';
 import angularLogo from '../assets/techs/Angular.png';
 import laravelLogo from '../assets/techs/Laravel.png';
 import pythonLogo from '../assets/techs/Python.png';
-import netLogo from '../assets/techs/Netcore.png';
+import netcoreLogo from '../assets/techs/Netcore.png';
 import csharpLogo from '../assets/techs/Csharp.png';
 
 const MainContent = ({ isDarkMode, isTransitioning }) => {
@@ -31,7 +31,7 @@ const MainContent = ({ isDarkMode, isTransitioning }) => {
         { name: 'Angular', image: angularLogo },
         { name: 'Laravel', image: laravelLogo },
         { name: 'Python', image: pythonLogo },
-        { name: '.Net', image: netLogo },
+        { name: '.Net', image: netcoreLogo },
         { name: 'C#', image: csharpLogo },
         // ... add other tech stack items
     ];
